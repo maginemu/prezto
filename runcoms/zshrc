@@ -14,6 +14,3 @@ fi
 
 # changed to load another file
 [ -f $HOME/.zshrc.d/.zshrc.user ] && source $HOME/.zshrc.d/.zshrc.user
-
-#THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
-[[ -s "/Users/maginemu/.gvm/bin/gvm-init.sh" ]] && source "/Users/maginemu/.gvm/bin/gvm-init.sh"
